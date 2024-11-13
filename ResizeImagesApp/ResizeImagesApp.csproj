@@ -11,7 +11,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="RI_icon.ico" />
+    <Content Include="RI_icon.ico">
+    </Content>
   </ItemGroup>
 
 </Project>

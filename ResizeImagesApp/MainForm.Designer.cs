@@ -44,11 +44,11 @@
             // 
             // resizeButton
             // 
-            resizeButton.Font = new Font("PanRoman", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 2);
-            resizeButton.Location = new Point(14, 33);
+            resizeButton.Font = new Font("Courier New", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resizeButton.Location = new Point(18, 33);
             resizeButton.Margin = new Padding(5);
             resizeButton.Name = "resizeButton";
-            resizeButton.Size = new Size(216, 127);
+            resizeButton.Size = new Size(232, 143);
             resizeButton.TabIndex = 0;
             resizeButton.Text = "Add images to resize";
             resizeButton.UseVisualStyleBackColor = true;
@@ -57,10 +57,10 @@
             // radioButton1500
             // 
             radioButton1500.AutoSize = true;
-            radioButton1500.Font = new Font("PanRoman", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point, 2);
-            radioButton1500.Location = new Point(128, 192);
+            radioButton1500.Font = new Font("Courier New", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            radioButton1500.Location = new Point(139, 212);
             radioButton1500.Name = "radioButton1500";
-            radioButton1500.Size = new Size(86, 23);
+            radioButton1500.Size = new Size(119, 27);
             radioButton1500.TabIndex = 3;
             radioButton1500.TabStop = true;
             radioButton1500.Text = "1500 px";
@@ -69,10 +69,10 @@
             // sizeLabel1
             // 
             sizeLabel1.AutoSize = true;
-            sizeLabel1.Font = new Font("PanRoman", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 2);
-            sizeLabel1.Location = new Point(8, 165);
+            sizeLabel1.Font = new Font("Courier New", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sizeLabel1.Location = new Point(14, 181);
             sizeLabel1.Name = "sizeLabel1";
-            sizeLabel1.Size = new Size(186, 19);
+            sizeLabel1.Size = new Size(238, 22);
             sizeLabel1.TabIndex = 4;
             sizeLabel1.Text = "select maximum size";
             // 
@@ -80,10 +80,10 @@
             // 
             radioButton1000.AutoSize = true;
             radioButton1000.Checked = true;
-            radioButton1000.Font = new Font("PanRoman", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point, 2);
-            radioButton1000.Location = new Point(14, 192);
+            radioButton1000.Font = new Font("Courier New", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            radioButton1000.Location = new Point(14, 212);
             radioButton1000.Name = "radioButton1000";
-            radioButton1000.Size = new Size(86, 23);
+            radioButton1000.Size = new Size(119, 27);
             radioButton1000.TabIndex = 5;
             radioButton1000.TabStop = true;
             radioButton1000.Text = "1000 px";
@@ -95,21 +95,21 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { aboutToolStripMenuItem, toolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(243, 24);
+            menuStrip1.Size = new Size(268, 33);
             menuStrip1.TabIndex = 6;
             menuStrip1.Text = "menuStrip1";
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(52, 20);
+            aboutToolStripMenuItem.Size = new Size(78, 29);
             aboutToolStripMenuItem.Text = "&About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(12, 20);
+            toolStripMenuItem1.Size = new Size(16, 29);
             // 
             // notifyIcon1
             // 
@@ -123,9 +123,9 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(15F, 38F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(243, 237);
+            ClientSize = new Size(268, 259);
             Controls.Add(radioButton1000);
             Controls.Add(sizeLabel1);
             Controls.Add(radioButton1500);
