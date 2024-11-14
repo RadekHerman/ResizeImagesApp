@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ResizeImagesApp.Services;
@@ -57,7 +57,7 @@ namespace ResizeImagesApp
                       "The app uses advanced image processing to maintain quality, making it ideal for preparing images " +
                       "for web or presentations. Simple, efficient, and quality-focused, ResizeImagesApp " +
                       "streamlines resizing for professionals and casual users alike." +
-                      "\n\nCreated by RH.",
+                      "\n\nCopyright (c) 2024 Radosław Herman",
                 caption: "About ResizeImagesApp",
                 buttons: MessageBoxButtons.OK,
                 icon: MessageBoxIcon.Information
