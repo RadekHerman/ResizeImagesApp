@@ -2,7 +2,6 @@
 # ResizeImagesApp
 
 An application I created for my own use. 
-
 I needed the ability to quickly resize large images I receive from clients so I could send them on via email. 
 This app does a great job of that, the images are lightweight but maintain very good quality and are perfect for what I need.
 
